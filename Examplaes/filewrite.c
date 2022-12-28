@@ -1,15 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
-	FILE *randomnumber;
+	FILE *Avragenum;
 	int i;
 	
-	randomnumber = rand() % 10;
-	randomnumber = fopen("avg.txt","w");
+	Avragenum = fopen("avgrage.txt","w");
 
     
-	for(i=1;i<=200;i++)
-		fprintf(randomnumber,"%d\n",i);
-		fclose(randomnumber);
+	for(i=200;i>1;i--)
+		fprintf(Avragenum,"%d\n",i);
+		fclose(Avragenum);
 		return 0;	
 }
