@@ -8,7 +8,7 @@ int main(){
 	randomnumber = fopen("avg.txt","w");
 
     
-	for(i=1;i<=50;i++)
+	for(i=1;i<=200;i++)
 		fprintf(randomnumber,"%d\n",i);
 		fclose(randomnumber);
 		return 0;	
